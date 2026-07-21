@@ -8,7 +8,32 @@ import math
 from pathlib import Path
 from typing import Sequence
 
-from distance_matrix import Coordinate, load_solomon_coordinates
+from distance_matrix import (
+    Coordinate,
+    calculate_distance_matrix,
+    load_solomon_coordinates,
+)
+
+
+def calculate_time_matrix_from_distances(
+    distance_matrix: Sequence[Sequence[int]],
+    speed: float = 1.0,
+    time_scale: float = 1.0,
+) -> list[list[int]]:
+    """Convert an integer distance matrix into an integer travel-time matrix."""
+    if speed <= 0:
+        raise ValueError("speed must be greater than zero")
+    if time_scale <= 0:
+        raise ValueError("time_scale must be greater than zero")
+
+    size = len(distance_matrix)
+    if any(len(row) != size for row in distance_matrix):
+        raise ValueError("distance_matrix must be square")
+
+    return [
+        [math.ceil((distance / speed) * time_scale) for distance in row]
+        for row in distance_matrix
+    ]
 
 
 def calculate_time_matrix(
@@ -16,32 +41,22 @@ def calculate_time_matrix(
     speed: float = 1.0,
     time_scale: float = 1.0,
 ) -> list[list[int]]:
-    """Return a symmetric travel-time matrix.
+    """Derive a symmetric travel-time matrix from the distance matrix.
 
     Coordinates and ``speed`` must use compatible units. For example, if the
     coordinates represent kilometres and speed is kilometres per hour, set
     ``time_scale=60`` to return travel times in minutes.
 
-    Times are rounded up so a non-zero journey never becomes zero after integer
-    conversion, which is important for OR-Tools dimensions.
+    The Euclidean distance matrix is calculated first by ``distance_matrix.py``.
+    Each stored distance is then divided by speed and converted to the requested
+    time unit. Times are rounded up for use in OR-Tools dimensions.
     """
-    if speed <= 0:
-        raise ValueError("speed must be greater than zero")
-    if time_scale <= 0:
-        raise ValueError("time_scale must be greater than zero")
-
-    points = [(float(x), float(y)) for x, y in coordinates]
-    size = len(points)
-    matrix = [[0] * size for _ in range(size)]
-
-    for start in range(size):
-        for end in range(start + 1, size):
-            distance = math.dist(points[start], points[end])
-            travel_time = math.ceil((distance / speed) * time_scale)
-            matrix[start][end] = travel_time
-            matrix[end][start] = travel_time
-
-    return matrix
+    distance_matrix = calculate_distance_matrix(coordinates)
+    return calculate_time_matrix_from_distances(
+        distance_matrix,
+        speed=speed,
+        time_scale=time_scale,
+    )
 
 
 def main() -> None:
