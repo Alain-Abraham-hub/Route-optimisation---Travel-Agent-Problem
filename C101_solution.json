@@ -1,0 +1,680 @@
+{
+  "vehicles_used": 10,
+  "total_distance": 829,
+  "total_demand_served": 1810,
+  "vehicle_capacity": 200,
+  "fleet_penalty": 12193,
+  "objective_value": 122759,
+  "routes": [
+    {
+      "vehicle": 1,
+      "distance": 51,
+      "load": 170,
+      "stops": [
+        {
+          "customer_id": 1,
+          "arrival_time": 0,
+          "load_after_stop": 0
+        },
+        {
+          "customer_id": 21,
+          "arrival_time": 10,
+          "load_after_stop": 10
+        },
+        {
+          "customer_id": 25,
+          "arrival_time": 105,
+          "load_after_stop": 20
+        },
+        {
+          "customer_id": 26,
+          "arrival_time": 197,
+          "load_after_stop": 60
+        },
+        {
+          "customer_id": 28,
+          "arrival_time": 289,
+          "load_after_stop": 70
+        },
+        {
+          "customer_id": 30,
+          "arrival_time": 383,
+          "load_after_stop": 80
+        },
+        {
+          "customer_id": 31,
+          "arrival_time": 478,
+          "load_after_stop": 90
+        },
+        {
+          "customer_id": 29,
+          "arrival_time": 571,
+          "load_after_stop": 110
+        },
+        {
+          "customer_id": 27,
+          "arrival_time": 663,
+          "load_after_stop": 120
+        },
+        {
+          "customer_id": 24,
+          "arrival_time": 756,
+          "load_after_stop": 130
+        },
+        {
+          "customer_id": 23,
+          "arrival_time": 849,
+          "load_after_stop": 150
+        },
+        {
+          "customer_id": 22,
+          "arrival_time": 941,
+          "load_after_stop": 170
+        },
+        {
+          "customer_id": 1,
+          "arrival_time": 1041,
+          "load_after_stop": 170
+        }
+      ]
+    },
+    {
+      "vehicle": 2,
+      "distance": 59,
+      "load": 200,
+      "stops": [
+        {
+          "customer_id": 1,
+          "arrival_time": 0,
+          "load_after_stop": 0
+        },
+        {
+          "customer_id": 68,
+          "arrival_time": 12,
+          "load_after_stop": 10
+        },
+        {
+          "customer_id": 66,
+          "arrival_time": 103,
+          "load_after_stop": 20
+        },
+        {
+          "customer_id": 64,
+          "arrival_time": 195,
+          "load_after_stop": 70
+        },
+        {
+          "customer_id": 63,
+          "arrival_time": 290,
+          "load_after_stop": 90
+        },
+        {
+          "customer_id": 75,
+          "arrival_time": 383,
+          "load_after_stop": 140
+        },
+        {
+          "customer_id": 73,
+          "arrival_time": 478,
+          "load_after_stop": 150
+        },
+        {
+          "customer_id": 62,
+          "arrival_time": 571,
+          "load_after_stop": 160
+        },
+        {
+          "customer_id": 65,
+          "arrival_time": 663,
+          "load_after_stop": 170
+        },
+        {
+          "customer_id": 69,
+          "arrival_time": 756,
+          "load_after_stop": 180
+        },
+        {
+          "customer_id": 67,
+          "arrival_time": 851,
+          "load_after_stop": 190
+        },
+        {
+          "customer_id": 70,
+          "arrival_time": 943,
+          "load_after_stop": 200
+        },
+        {
+          "customer_id": 1,
+          "arrival_time": 1049,
+          "load_after_stop": 200
+        }
+      ]
+    },
+    {
+      "vehicle": 3,
+      "distance": 60,
+      "load": 180,
+      "stops": [
+        {
+          "customer_id": 1,
+          "arrival_time": 0,
+          "load_after_stop": 0
+        },
+        {
+          "customer_id": 6,
+          "arrival_time": 15,
+          "load_after_stop": 10
+        },
+        {
+          "customer_id": 4,
+          "arrival_time": 106,
+          "load_after_stop": 20
+        },
+        {
+          "customer_id": 8,
+          "arrival_time": 198,
+          "load_after_stop": 40
+        },
+        {
+          "customer_id": 9,
+          "arrival_time": 291,
+          "load_after_stop": 60
+        },
+        {
+          "customer_id": 11,
+          "arrival_time": 385,
+          "load_after_stop": 70
+        },
+        {
+          "customer_id": 12,
+          "arrival_time": 478,
+          "load_after_stop": 80
+        },
+        {
+          "customer_id": 10,
+          "arrival_time": 571,
+          "load_after_stop": 90
+        },
+        {
+          "customer_id": 7,
+          "arrival_time": 663,
+          "load_after_stop": 110
+        },
+        {
+          "customer_id": 5,
+          "arrival_time": 755,
+          "load_after_stop": 120
+        },
+        {
+          "customer_id": 3,
+          "arrival_time": 849,
+          "load_after_stop": 150
+        },
+        {
+          "customer_id": 2,
+          "arrival_time": 941,
+          "load_after_stop": 160
+        },
+        {
+          "customer_id": 76,
+          "arrival_time": 1034,
+          "load_after_stop": 180
+        },
+        {
+          "customer_id": 1,
+          "arrival_time": 1140,
+          "load_after_stop": 180
+        }
+      ]
+    },
+    {
+      "vehicle": 4,
+      "distance": 65,
+      "load": 160,
+      "stops": [
+        {
+          "customer_id": 1,
+          "arrival_time": 0,
+          "load_after_stop": 0
+        },
+        {
+          "customer_id": 44,
+          "arrival_time": 17,
+          "load_after_stop": 10
+        },
+        {
+          "customer_id": 43,
+          "arrival_time": 110,
+          "load_after_stop": 30
+        },
+        {
+          "customer_id": 42,
+          "arrival_time": 202,
+          "load_after_stop": 40
+        },
+        {
+          "customer_id": 41,
+          "arrival_time": 294,
+          "load_after_stop": 50
+        },
+        {
+          "customer_id": 45,
+          "arrival_time": 387,
+          "load_after_stop": 60
+        },
+        {
+          "customer_id": 47,
+          "arrival_time": 480,
+          "load_after_stop": 90
+        },
+        {
+          "customer_id": 46,
+          "arrival_time": 572,
+          "load_after_stop": 100
+        },
+        {
+          "customer_id": 49,
+          "arrival_time": 664,
+          "load_after_stop": 110
+        },
+        {
+          "customer_id": 52,
+          "arrival_time": 757,
+          "load_after_stop": 120
+        },
+        {
+          "customer_id": 51,
+          "arrival_time": 849,
+          "load_after_stop": 130
+        },
+        {
+          "customer_id": 53,
+          "arrival_time": 942,
+          "load_after_stop": 140
+        },
+        {
+          "customer_id": 50,
+          "arrival_time": 1035,
+          "load_after_stop": 150
+        },
+        {
+          "customer_id": 48,
+          "arrival_time": 1127,
+          "load_after_stop": 160
+        },
+        {
+          "customer_id": 1,
+          "arrival_time": 1235,
+          "load_after_stop": 160
+        }
+      ]
+    },
+    {
+      "vehicle": 5,
+      "distance": 77,
+      "load": 170,
+      "stops": [
+        {
+          "customer_id": 1,
+          "arrival_time": 0,
+          "load_after_stop": 0
+        },
+        {
+          "customer_id": 91,
+          "arrival_time": 21,
+          "load_after_stop": 10
+        },
+        {
+          "customer_id": 88,
+          "arrival_time": 116,
+          "load_after_stop": 30
+        },
+        {
+          "customer_id": 87,
+          "arrival_time": 207,
+          "load_after_stop": 40
+        },
+        {
+          "customer_id": 84,
+          "arrival_time": 303,
+          "load_after_stop": 50
+        },
+        {
+          "customer_id": 83,
+          "arrival_time": 396,
+          "load_after_stop": 70
+        },
+        {
+          "customer_id": 85,
+          "arrival_time": 492,
+          "load_after_stop": 90
+        },
+        {
+          "customer_id": 86,
+          "arrival_time": 585,
+          "load_after_stop": 120
+        },
+        {
+          "customer_id": 89,
+          "arrival_time": 678,
+          "load_after_stop": 150
+        },
+        {
+          "customer_id": 90,
+          "arrival_time": 771,
+          "load_after_stop": 160
+        },
+        {
+          "customer_id": 92,
+          "arrival_time": 865,
+          "load_after_stop": 170
+        },
+        {
+          "customer_id": 1,
+          "arrival_time": 977,
+          "load_after_stop": 170
+        }
+      ]
+    },
+    {
+      "vehicle": 6,
+      "distance": 96,
+      "load": 190,
+      "stops": [
+        {
+          "customer_id": 1,
+          "arrival_time": 0,
+          "load_after_stop": 0
+        },
+        {
+          "customer_id": 14,
+          "arrival_time": 31,
+          "load_after_stop": 30
+        },
+        {
+          "customer_id": 18,
+          "arrival_time": 125,
+          "load_after_stop": 50
+        },
+        {
+          "customer_id": 19,
+          "arrival_time": 218,
+          "load_after_stop": 70
+        },
+        {
+          "customer_id": 20,
+          "arrival_time": 313,
+          "load_after_stop": 80
+        },
+        {
+          "customer_id": 16,
+          "arrival_time": 408,
+          "load_after_stop": 120
+        },
+        {
+          "customer_id": 17,
+          "arrival_time": 503,
+          "load_after_stop": 160
+        },
+        {
+          "customer_id": 15,
+          "arrival_time": 595,
+          "load_after_stop": 170
+        },
+        {
+          "customer_id": 13,
+          "arrival_time": 688,
+          "load_after_stop": 190
+        },
+        {
+          "customer_id": 1,
+          "arrival_time": 816,
+          "load_after_stop": 190
+        }
+      ]
+    },
+    {
+      "vehicle": 7,
+      "distance": 97,
+      "load": 190,
+      "stops": [
+        {
+          "customer_id": 1,
+          "arrival_time": 0,
+          "load_after_stop": 0
+        },
+        {
+          "customer_id": 99,
+          "arrival_time": 31,
+          "load_after_stop": 20
+        },
+        {
+          "customer_id": 97,
+          "arrival_time": 126,
+          "load_after_stop": 30
+        },
+        {
+          "customer_id": 96,
+          "arrival_time": 218,
+          "load_after_stop": 60
+        },
+        {
+          "customer_id": 95,
+          "arrival_time": 312,
+          "load_after_stop": 70
+        },
+        {
+          "customer_id": 93,
+          "arrival_time": 406,
+          "load_after_stop": 90
+        },
+        {
+          "customer_id": 94,
+          "arrival_time": 498,
+          "load_after_stop": 130
+        },
+        {
+          "customer_id": 98,
+          "arrival_time": 593,
+          "load_after_stop": 160
+        },
+        {
+          "customer_id": 101,
+          "arrival_time": 688,
+          "load_after_stop": 180
+        },
+        {
+          "customer_id": 100,
+          "arrival_time": 783,
+          "load_after_stop": 190
+        },
+        {
+          "customer_id": 1,
+          "arrival_time": 907,
+          "load_after_stop": 190
+        }
+      ]
+    },
+    {
+      "vehicle": 8,
+      "distance": 97,
+      "load": 200,
+      "stops": [
+        {
+          "customer_id": 1,
+          "arrival_time": 0,
+          "load_after_stop": 0
+        },
+        {
+          "customer_id": 33,
+          "arrival_time": 32,
+          "load_after_stop": 30
+        },
+        {
+          "customer_id": 34,
+          "arrival_time": 124,
+          "load_after_stop": 70
+        },
+        {
+          "customer_id": 32,
+          "arrival_time": 219,
+          "load_after_stop": 90
+        },
+        {
+          "customer_id": 36,
+          "arrival_time": 314,
+          "load_after_stop": 100
+        },
+        {
+          "customer_id": 38,
+          "arrival_time": 410,
+          "load_after_stop": 120
+        },
+        {
+          "customer_id": 39,
+          "arrival_time": 502,
+          "load_after_stop": 150
+        },
+        {
+          "customer_id": 40,
+          "arrival_time": 597,
+          "load_after_stop": 170
+        },
+        {
+          "customer_id": 37,
+          "arrival_time": 692,
+          "load_after_stop": 180
+        },
+        {
+          "customer_id": 35,
+          "arrival_time": 785,
+          "load_after_stop": 200
+        },
+        {
+          "customer_id": 1,
+          "arrival_time": 907,
+          "load_after_stop": 200
+        }
+      ]
+    },
+    {
+      "vehicle": 9,
+      "distance": 101,
+      "load": 200,
+      "stops": [
+        {
+          "customer_id": 1,
+          "arrival_time": 0,
+          "load_after_stop": 0
+        },
+        {
+          "customer_id": 58,
+          "arrival_time": 35,
+          "load_after_stop": 40
+        },
+        {
+          "customer_id": 56,
+          "arrival_time": 127,
+          "load_after_stop": 50
+        },
+        {
+          "customer_id": 55,
+          "arrival_time": 222,
+          "load_after_stop": 90
+        },
+        {
+          "customer_id": 54,
+          "arrival_time": 317,
+          "load_after_stop": 110
+        },
+        {
+          "customer_id": 57,
+          "arrival_time": 411,
+          "load_after_stop": 140
+        },
+        {
+          "customer_id": 59,
+          "arrival_time": 503,
+          "load_after_stop": 170
+        },
+        {
+          "customer_id": 61,
+          "arrival_time": 596,
+          "load_after_stop": 190
+        },
+        {
+          "customer_id": 60,
+          "arrival_time": 696,
+          "load_after_stop": 200
+        },
+        {
+          "customer_id": 1,
+          "arrival_time": 821,
+          "load_after_stop": 200
+        }
+      ]
+    },
+    {
+      "vehicle": 10,
+      "distance": 126,
+      "load": 150,
+      "stops": [
+        {
+          "customer_id": 1,
+          "arrival_time": 0,
+          "load_after_stop": 0
+        },
+        {
+          "customer_id": 82,
+          "arrival_time": 47,
+          "load_after_stop": 30
+        },
+        {
+          "customer_id": 79,
+          "arrival_time": 140,
+          "load_after_stop": 50
+        },
+        {
+          "customer_id": 77,
+          "arrival_time": 232,
+          "load_after_stop": 60
+        },
+        {
+          "customer_id": 72,
+          "arrival_time": 327,
+          "load_after_stop": 80
+        },
+        {
+          "customer_id": 71,
+          "arrival_time": 422,
+          "load_after_stop": 110
+        },
+        {
+          "customer_id": 74,
+          "arrival_time": 515,
+          "load_after_stop": 120
+        },
+        {
+          "customer_id": 78,
+          "arrival_time": 609,
+          "load_after_stop": 130
+        },
+        {
+          "customer_id": 80,
+          "arrival_time": 700,
+          "load_after_stop": 140
+        },
+        {
+          "customer_id": 81,
+          "arrival_time": 795,
+          "load_after_stop": 150
+        },
+        {
+          "customer_id": 1,
+          "arrival_time": 936,
+          "load_after_stop": 150
+        }
+      ]
+    }
+  ]
+}
